@@ -24,9 +24,118 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+    <link rel="stylesheet" href="../src/css/app.css">
     <script src="dist/bundle.js"></script>
 </head>
 <body>
-<h1>Hey baby</h1>
+  <nav class="navbar color-light-bg" role="navigation" aria-label="main navigation">
+    <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://bulma.io">
+        <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+      </a>
+  
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+  
+    <div id="navbarBasicExample" class="navbar-menu">
+     
+          <div class="navbar-start">
+              <div class="">
+              <div style="width: 700px"; class="field is-grouped m-t-2 m-l-6">
+                  <p class="control is-expanded">
+                    <input class="input" type="text" placeholder="Find a something">
+                  </p>
+                  <p class="control">
+                    <a class="button is-info">
+                        <i class="fas fa-search"></i>
+                    </a>
+                  </p>
+                </div>
+      </div>
+      </div>
+        <div class="navbar-end">
+          <div class="navbar-item has-dropdown">
+            <a href="" class="navbar-link">
+              <span class="icon">
+                <i class="fas fa-comment is-outlined"></i>
+              </span>
+            </a>
+            <div class="navbar-dropdown is-right">
+              <a href="" class="navbar-item">
+                <div class="columns">
+                  <div class="column is-3">
+                     <img src="https://via.placeholder.com/150" class="message-owner">
+                  </div>
+                  <div class="column">
+                    <p> <b>Abul</b> </p>
+                    <p>Lorem ipsum dolor sit amet</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div> 
+          <div class="navbar-item has-dropdown">
+            <a class="navbar-link">
+                <span class="icon ">
+                <i class="fas fa-bell is-outlined"></i>
+                </span>
+            </a>
+            <div class="navbar-dropdown is-right">
+                <a href="" class="navbar-item">
+                  <div class="columns">
+                    <div class="column is-3">
+                       <img src="https://via.placeholder.com/150" class="message-owner">
+                    </div>
+                    <div class="column">
+                      <p> <b>Abul</b> </p>
+                      <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+          </div>
+            
+          <div class="navbar-item has-dropdown">
+          <a class="navbar-link">
+              <span class="icon ">
+                  <i class="fas fa-user is-outlined"></i>
+                </span>
+          </a>
+  
+          <div class="navbar-dropdown is-right">
+            <a class="navbar-item">
+              Profile
+            </a>
+            <a class="navbar-item">
+              Settings
+            </a>
+            <a class="navbar-item">
+                Report an issue
+            </a>
+            <hr class="navbar-divider">
+            <a class="navbar-item">
+              Logout
+            </a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  </nav>   
+  <div class="columns m-t-1">
+            <div class="column"><div class="has-background-white">1</div></div>
+            <div class="column is-three-fifths"><div class="has-background-white">2</div></div>
+            <div class="column"><div class="has-background-white">3</div></div>
+  </div>
+   
+
 </body>
 </html>
