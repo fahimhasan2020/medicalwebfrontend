@@ -47,3 +47,13 @@ if ($navi.length > 0) {
 
 
 });
+
+var card = $('.card');
+
+$('#close').click(function () {
+  card.fadeOut(200).delay(1000).fadeIn(200);
+});
+$('#connect').click(function () {
+  $('.added').fadeIn(500).delay(1000).fadeOut(500);
+  //card.css("opacity", "0.55");
+});
