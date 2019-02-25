@@ -34,32 +34,56 @@
     <div class="container">
     <div class="navbar-brand">
       <a class="navbar-item" href="https://bulma.io">
-        <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28" alt="">
+        <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
       </a>
+  
       <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
       </a>
     </div>
+  
     <div id="navbarBasicExample" class="navbar-menu">
+     
           <div class="navbar-start">
-              <form method="post" class="form-search m-t-1 m-l-4">
-                  <input type="text" class="textbox" placeholder="Search for specialist,medical,dispensary, ambulance service">
-                  <input title="Search" value="Find" type="submit" class="button">
-              </form>
-          </div>
+              <div class="">
+              <div style="width: 700px"; class="field is-grouped m-t-2 m-l-6">
+                  <p class="control is-expanded">
+                    <input class="input" type="text" placeholder="Find a something">
+                  </p>
+                  <p class="control">
+                    <a class="button is-info">
+                        <i class="fas fa-search"></i>
+                    </a>
+                  </p>
+                </div>
+      </div>
+      </div>
         <div class="navbar-end">
-          <div class="navbar-item has-dropdown" id="has-dropdown">
-            <a href="" class="navbar-item">
-              <span class="icon color-white nav-a">
+          <div class="navbar-item has-dropdown">
+            <a href="" class="navbar-link">
+              <span class="icon">
                 <i class="fas fa-comment is-outlined"></i>
               </span>
             </a>
-          </div>
+            <div class="navbar-dropdown is-right">
+              <a href="" class="navbar-item">
+                <div class="columns">
+                  <div class="column is-3">
+                     <img src="https://via.placeholder.com/150" class="message-owner">
+                  </div>
+                  <div class="column">
+                    <p> <b>Abul</b> </p>
+                    <p>Lorem ipsum dolor sit amet</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div> 
           <div class="navbar-item has-dropdown">
-            <a class="navbar-item">
-                <span class="icon color-white nav-a">
+            <a class="navbar-link">
+                <span class="icon ">
                 <i class="fas fa-bell is-outlined"></i>
                 </span>
             </a>
@@ -77,13 +101,14 @@
                 </a>
               </div>
           </div>
+            
           <div class="navbar-item has-dropdown">
-          <a class="navbar-item">
-              <span class="icon color-white nav-a">
+          <a class="navbar-link">
+              <span class="icon ">
                   <i class="fas fa-user is-outlined"></i>
                 </span>
           </a>
-
+  
           <div class="navbar-dropdown is-right">
             <a class="navbar-item">
               Profile
@@ -100,10 +125,11 @@
             </a>
           </div>
         </div>
+        
       </div>
     </div>
   </div>
-  </nav>
+  </nav>   
   <div  class="columns m-t-1">
             <div class="column">
               <div class="has-background-white ">1</div>
@@ -324,5 +350,6 @@
               <div class="has-background-white">3</div>
             </div>
   </div>
+
 </body>
 </html>
