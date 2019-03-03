@@ -73,10 +73,13 @@ html ,body{background:whitesmoke;height: 100%; font-family: "Titillium Web", san
 .color-secondary-bg {background: #00b0ff}
 .color-light-bg {background: #69e2ff}
 .color-dark-bg {background: #0081cb}
-.color-white-bg {background: #ffffff}
-.color-white{color: white}
-.nav-a:hover{color: #0094cc}
-.navbar-item:hover{background-color: #69e2ff !important;}
+
+.b-r-1 {border-radius: 5px}
+.b-r-2 {border-radius: 15px}
+.b-r-3 {border-radius: 25px}
+.b-r-4 {border-radius: 35px}
+.b-r-5 {border-radius: 50px}
+
 .message-owner {
     height: 50px;
     width: 50px;
